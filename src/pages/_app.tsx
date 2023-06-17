@@ -13,3 +13,5 @@ const MyApp: AppType<{ session: Session | null }> = ({
     </SessionProvider>
   );
 };
+
+export default MyApp;
