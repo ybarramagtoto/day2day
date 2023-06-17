@@ -15,7 +15,7 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             Day <span className="text-[hsl(280,100%,70%)]">II</span> Day
-            Foundation
+            Incorporated
           </h1>
         </div>
       </main>
