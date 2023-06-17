@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Day II Day Foundation</title>
+        <title>Day II Day Incorporated</title>
         <meta name="description"/>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
