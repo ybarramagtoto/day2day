@@ -1,9 +1,8 @@
+// @ts-nocheck
 import React from 'react';
 import styles from './PopupCard.module.css';
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
-
-import CheckoutForm from "./CheckoutForm";
 
 // Make sure to call loadStripe outside of a component’s render to avoid
 // recreating the Stripe object on every render.
