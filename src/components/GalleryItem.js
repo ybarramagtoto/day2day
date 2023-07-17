@@ -1,7 +1,7 @@
-// @ts-nocheck
 import Link from 'next/link';
 import Image from 'next/image';
 
+// @ts-ignore
 const GalleryItem = ({ img, date, title, articleLink, source }) => {
   return (
     <Link href={articleLink} className="flex flex-col text-left border border-transparent rounded-lg shadow-xl transition duration-300 ease-in-out transform hover:scale-105 lg:w-80 md:w-70 sm:w-full">

@@ -1,10 +1,10 @@
-// @ts-nocheck
 import React from 'react'
 import Image from 'next/image'
 import Gallery from './Gallery'
 import styles from "../components/section.module.css"
 import Link from "next/link"
 
+// @ts-ignore
 const Hero = ({heading, message}) => {
   return (
     <>
