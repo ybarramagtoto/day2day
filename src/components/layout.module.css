@@ -1,0 +1,13 @@
+.container {
+    max-width: 75rem;
+    padding: 0 1rem;
+    margin: 2.5rem auto .3rem;
+}
+
+.divider {
+  position: relative;
+  top: 10rem;
+  height: 1rem;
+  border-left: 1px solid #999999; /* Adjust the color and style as needed */
+  margin-right: 0.5rem;
+}

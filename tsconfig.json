@@ -27,7 +27,6 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.cjs",
-    "**/*.mjs"
-  ],
+    "**/*.mjs", "src/components/PopupCard.js", "src/pages/index.js" ],
   "exclude": ["node_modules"]
 }
