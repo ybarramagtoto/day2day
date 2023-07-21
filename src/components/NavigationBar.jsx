@@ -11,8 +11,16 @@ const NavigationBar = () => {
         setNav(!nav);
     }
 
+    useEffect(() => {
+        if (nav) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+    }, [nav])
+
     return (
-        <>
+        <div className="">
             <div className={styles.container}>
                 <div className="flex items-end justify-between">
                     <div className="mb-2">
@@ -55,7 +63,7 @@ const NavigationBar = () => {
                 </ul>
             </div>
         
-        </>
+        </div>
     )
 }
 

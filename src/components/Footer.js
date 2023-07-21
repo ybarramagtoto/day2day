@@ -9,9 +9,9 @@ const Footer = () => {
                     <div className="text-center">
                         <h1 className="text-3xl">Stay Connected</h1>
                         <p className='font-thin'>Sign up for our newsletter to receive updates on upcoming Day II Day events and activities.</p>
-                        <div className='flex justify-center py-5'>
-                            <input type="text" className="border border-gray-300 py-3 pl-3 w-1/3 mr-5" placeholder="Email Address"></input>
-                            <button type="button" className="bg-yellow-500 text-white font-bold px-5 rounded-full">Sign Up</button>
+                        <div className='flex flex-col items-center justify-center py-5'>
+                            <input type="text" className="border border-gray-300 py-2 pl-3 mb-3 w-2/3" placeholder="Email Address"></input>
+                            <button type="button" className="bg-yellow-500 text-white font-bold py-1 px-5 rounded-md">Sign Up</button>
                         </div>
                     </div>
 

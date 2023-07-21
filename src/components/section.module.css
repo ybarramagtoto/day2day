@@ -18,7 +18,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 70rem; /* Adjust the value according to your layout */
+    /* max-width: 70rem;  */
     padding: 0 1rem;
 }
 
