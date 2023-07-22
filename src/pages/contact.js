@@ -7,7 +7,7 @@ const contact = () => {
     <Layout>
         <div className={styles.section}>
             <div className={styles.container}>
-                <h1 className='text-5xl pt-16 pb-3'>Contact</h1>
+                <h1 className='text-5xl pt-5 pb-3'>Contact</h1>
                 <div className='border mb-6 '></div>
                 
                 <div className='text-2xl pb-2'>

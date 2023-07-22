@@ -21,17 +21,19 @@ const Hero = ({heading, message}) => {
             <div className='flex items-center justify-center w-screen bg-center bg-cover pt-20'>
                 {/* Overlay for text over the picture*/}
                 {/* <div className='absolute top-0 left-0 right-0 bottom-0 z-[2]' /> */}
-                <div className='p-5 z-[2] w-4/6 text-center'>
-                    <h1 className='sm:text-7xl text-5xl'>Our Mission</h1>
-                    <p className='py-5 sm:text-3xl text-xl font-light'>We are a San Diego based non-profit whose is to empower and support disadvantaged and at-risk youth athletes by providing them with assistance and education. We strive to cultivate an environment where they can develop into responsible, accountable individuals, equipped with the knowledge and skills to make healthier lifestyle choices.</p>
+                <div className='mt-[-1rem] w-4/6 text-center'>
+                    <h1 className='pb-5 sm:text-7xl text-6xl'>Our Mission</h1>
+                    <p className='pb-10 sm:text-3xl text-xl font-light'>We are a San Diego based non-profit whose is to empower and support disadvantaged and at-risk youth athletes by providing them with assistance and education. We strive to cultivate an environment where they can develop into responsible, accountable individuals, equipped with the knowledge and skills to make healthier lifestyle choices.</p>
                 </div>
             </div>
             
-            <div className='border mr-40 ml-40'/>
+            <div className='flex items-center justify-center'>
+                <div className='border w-2/3'/>
+            </div>
             
             <div className='flex items-center justify-center w-screen bg-center bg-cover py-10'>
                 <div className='pb-5 z-[2] w-4/6 text-center'>
-                    <h1 className='pb-5 sm:text-7xl text-5xl mb-5'>Our Team</h1>
+                    <h1 className='pb-5 sm:text-7xl text-6xl mb-5'>Our Team</h1>
                     <div className='flex justify-center space-x-10'>
                         <div>
                             <Image className='rounded-full overflow-hidden' src="/images/dd.jpeg" alt='david dunn' width='200' height='500' ></Image>
@@ -47,11 +49,13 @@ const Hero = ({heading, message}) => {
                 </div>
             </div>
 
-            <div className='border mr-40 ml-40'/>
+            <div className='flex items-center justify-center'>
+                <div className='border w-2/3'/>
+            </div>
 
             <div className='flex items-center justify-center w-screen bg-center bg-cover py-10'>
-                <div className='p-5 z-[2] w-4/6 text-center'>
-                    <h1 className='pb-5 sm:text-7xl text-5xl mb-5'>In The News</h1>
+                <div className='w-4/6 text-center'>
+                    <h1 className='pb-5 sm:text-7xl text-6xl mb-5'>In The News</h1>
                     <div className=''>
                         <Gallery />
                     </div>
