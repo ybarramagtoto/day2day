@@ -23,16 +23,16 @@ const NavigationBar = () => {
         <div className="">
             <div className={styles.container}>
                 <div className="flex items-end justify-between">
-                    <div className="mb-2">
+                    <div className="">
                         <Link href="/">
                             <Image src="/images/dayiiday_logo.webp" alt="logo" width="90" height="90"/>
                         </Link>
                     </div>
                     <div className="hidden sm:flex">
                         <ul>
-                            <Link className="px-6 py-2 hover:bg-yellow-500 hover:text-white" href="/">Home</Link>
-                            <Link className="px-6 py-2 hover:bg-yellow-500 hover:text-white" href="/contact">Contact</Link>
-                            <Link className="px-6 py-2 hover:bg-yellow-500 hover:text-white" href="https://donate.stripe.com/aEU4hg8Cd6roaME288">Donate</Link>
+                            <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="/">Home</Link>
+                            <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="/contact">Contact</Link>
+                            <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="https://donate.stripe.com/aEU4hg8Cd6roaME288">Donate</Link>
                         </ul>
                     </div>
 
