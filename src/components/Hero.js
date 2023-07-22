@@ -9,7 +9,7 @@ const Hero = ({heading, message}) => {
     <>
         <div className='flex items-center justify-center w-screen h-[37.5rem] bg-center bg-cover custom-img'>
             {/* Overlay for text over the picture*/}
-            <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/30 z-[1] ease-in duration-300' />
+            <div className='absolute top-0 left-0 right-0 bottom-0 z-[1] ease-in duration-300' />
             <div className='sm:p-5 text-white z-[2] w-2/5'>
                 <h1 className='sm:text-5xl text-3xl'>{heading}</h1>
                 <p className='pb-5 text-xl'>{message}</p>
@@ -30,8 +30,8 @@ const Hero = ({heading, message}) => {
             <div className='border mr-40 ml-40'/>
             
             <div className='flex items-center justify-center w-screen bg-center bg-cover py-10'>
-                <div className='p-5 z-[2] w-4/6 text-center'>
-                    <h1 className='sm:text-7xl text-5xl mb-5'>Our Team</h1>
+                <div className='pb-5 z-[2] w-4/6 text-center'>
+                    <h1 className='pb-5 sm:text-7xl text-5xl mb-5'>Our Team</h1>
                     <div className='flex justify-center space-x-10'>
                         <div>
                             <Image className='rounded-full overflow-hidden' src="/images/dd.jpeg" alt='david dunn' width='200' height='500' ></Image>
@@ -51,7 +51,7 @@ const Hero = ({heading, message}) => {
 
             <div className='flex items-center justify-center w-screen bg-center bg-cover py-10'>
                 <div className='p-5 z-[2] w-4/6 text-center'>
-                    <h1 className='sm:text-7xl text-5xl mb-5'>In The News</h1>
+                    <h1 className='pb-5 sm:text-7xl text-5xl mb-5'>In The News</h1>
                     <div className=''>
                         <Gallery />
                     </div>
