@@ -3,6 +3,13 @@ import GalleryItem from './GalleryItem';
 const Gallery = () => {
   const galleryItems = [
     {
+        img: '/images/d2d_reading.png',
+        date: 'September 7, 2023',
+        title: 'Lincoln High football players read to kids at Malcolm X Library',
+        articleLink: 'https://www.10news.com/donate/give-a-book/lincoln-high-football-players-read-to-kids-at-malcolm-x-library',
+        source: 'ABC 10 News San Diego'
+    },
+    {
         img: '/images/dd_ut.jpeg',
         date: 'January 13, 2023',
         title: 'Two community leaders honored with annual Dr. Martin Luther King Jr. Human Dignity Award',
@@ -28,7 +35,7 @@ const Gallery = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="flex flex-wrap gap-10">
+      <div className="flex flex-wrap justify-center gap-5 mx-auto">
         {galleryItems.map((item, index) => (
           <GalleryItem
             key={index}
