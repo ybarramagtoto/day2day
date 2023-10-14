@@ -11,7 +11,7 @@ const GalleryItem = ({ img, date, title, articleLink, source }) => {
         
         
           <p className='px-4 pt-4 pb-2 text-xs'>{date}</p>
-          <h2 className='px-4 sm:text-lg text-sm'>{title}</h2>
+          <h2 className='px-4 sm:text-lg'>{title}</h2>
           <p className='py-4 px-4 italic text-xs'>Source: {source}</p>
         
         {/* <Link className='border rounded-sm w-1/2 ml-4 mb-4 px-3 py-2 bg-yellow-500 text-white' href={articleLink}>Read More</Link> */}

@@ -31,7 +31,7 @@ const contact = () => {
                 {/* email */}
                 <div className='text-xl py-2'>
                     <h2>Email</h2>
-                    <p>brehana.accardo@bandonllc.com</p>
+                    <p><a href="mailto:info@dayiiday.org" className="text-blue-500 hover:underline">info@dayiiday.org</a></p>
                 </div>
 
                 {/* email */}

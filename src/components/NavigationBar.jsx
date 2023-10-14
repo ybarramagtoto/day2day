@@ -22,6 +22,7 @@ const NavigationBar = () => {
     return (
         <div className="">
             <div className={styles.container}>
+            
                 <div className="flex items-end justify-between">
                     <div className="">
                         <Link href="/">
@@ -31,8 +32,8 @@ const NavigationBar = () => {
                     <div className="hidden sm:flex">
                         <ul>
                             <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="/">Home</Link>
+                            <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="/donate">Donate</Link>
                             <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="/contact">Contact</Link>
-                            <Link className="px-8 pt-2 pb-2 hover:bg-yellow-500 hover:text-white" href="https://donate.stripe.com/aEU4hg8Cd6roaME288">Donate</Link>
                         </ul>
                     </div>
 

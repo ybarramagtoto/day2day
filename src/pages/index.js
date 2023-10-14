@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero heading='Equality' message='We aim to uplift and inspire young athletes, helping them build a brighter and more promising future.'/>
+      <Hero heading='Empower' message='We aim to uplift and inspire young athletes, helping them build a brighter and more promising future.'/>
     </>
   );
 }
