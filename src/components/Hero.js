@@ -9,11 +9,10 @@ const Hero = ({heading, message}) => {
     <>
         <div className='flex items-center justify-center w-screen h-[37.5rem] bg-center bg-cover custom-img'>
             {/* Overlay for text over the picture*/}
-            <div className='absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-green-900 from-opacity-10 to-transparent z-[1] ease-in duration-300' />
             <div className='sm:p-5 text-white z-[2] w-2/5'>
-                <h1 className='sm:text-7xl text-5xl '>{heading}</h1>
-                <p className='pb-5 text-2xl text-shadow'>{message}</p>
-                <Link className='text-center px-8 py-2 border bg-white text-black rounded-md' href={"https://donate.stripe.com/aEU4hg8Cd6roaME288"}>Donate Now</Link>
+                <h1 className='sm:text-5xl text-3xl '>{heading}</h1>
+                <p className='pb-5 sm:text-xl text-l text-shadow'>{message}</p>
+                <Link className='text-center px-5 py-2 border bg-white text-black rounded-md' href={"https://donate.stripe.com/aEU4hg8Cd6roaME288"}>Donate</Link>
             </div>
         </div>
 
