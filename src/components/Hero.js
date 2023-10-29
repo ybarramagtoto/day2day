@@ -20,7 +20,6 @@ const Hero = ({heading, message}) => {
         <div className={styles.section}>
             <div className='flex items-center justify-center w-screen bg-center bg-cover pt-20'>
                 {/* Overlay for text over the picture*/}
-                {/* <div className='absolute top-0 left-0 right-0 bottom-0 z-[2]' /> */}
                 <div className='mt-[-1rem] w-4/6 text-center'>
                     <h1 className='pb-5 sm:text-7xl text-6xl'>Our Mission</h1>
                     <p className='pb-10 sm:text-3xl text-xl font-light'>We are a San Diego based non-profit whose is to empower and support disadvantaged and at-risk youth athletes by providing them with assistance and education. We strive to cultivate an environment where they can develop into responsible, accountable individuals, equipped with the knowledge and skills to make healthier lifestyle choices.</p>
@@ -36,14 +35,14 @@ const Hero = ({heading, message}) => {
                     <h1 className='pb-5 sm:text-7xl text-6xl mb-5'>Our Team</h1>
                     <div className='flex justify-center space-x-10'>
                         <div>
-                            <Image className='rounded-full overflow-hidden' src="/images/dd.jpeg" alt='david dunn' width='200' height='500' ></Image>
+                            <Image className='rounded-full overflow-hidden' src="/images/dd.jpeg" alt='david dunn' width='200' height='200' ></Image>
                             <p className='font-bold'>David Dunn</p>
                             <p>Founder</p>
                         </div>
                         <div>
-                            <Image className='rounded-full overflow-hidden' src="/images/dd.jpeg" alt='david dunn' width='200' height='500' ></Image>
+                            <Image className='rounded-full overflow-hidden' src="/images/blake_kirby.png" alt='blake kirby' width='200' height='200' ></Image>
                             <p className='font-bold'>Blake Kirby</p>
-                            <p>Director</p>
+                            <p>Board Member</p>
                         </div>
                     </div>
                 </div>
