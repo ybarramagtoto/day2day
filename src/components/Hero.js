@@ -21,7 +21,7 @@ const Hero = ({heading, message}) => {
                 {/* Overlay for text over the picture*/}
                 <div className='mt-[-1rem] w-4/6 text-center'>
                     <h1 className='pb-5 sm:text-7xl text-6xl'>Our Mission</h1>
-                    <p className='pb-10 sm:text-3xl text-xl font-light'>We are a San Diego based non-profit whose is to empower and support disadvantaged and at-risk youth athletes by providing them with assistance and education. We strive to cultivate an environment where they can develop into responsible, accountable individuals, equipped with the knowledge and skills to make healthier lifestyle choices.</p>
+                    <p className='pb-10 sm:text-3xl text-xl font-light'>We are a San Diego based non-profit whose mission is to empower and support disadvantaged and at-risk youth athletes by providing them with assistance and education. We strive to cultivate an environment where they can develop into responsible, accountable individuals, equipped with the knowledge and skills to make healthier lifestyle choices.</p>
                 </div>
             </div>
             
