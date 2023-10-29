@@ -55,12 +55,11 @@ const NavigationBar = () => {
                         <Link href="/">Home</Link>
                     </li>
                     <li onClick={handleNav} className="px-6 py-2 hover:text-gray-500">
+                        <Link href="/donate">Donate</Link>
+                    </li>
+                    <li onClick={handleNav} className="px-6 py-2 hover:text-gray-500">
                         <Link href="/contact">Contact</Link>
                     </li>
-                    <li className="px-6 py-2 hover:text-gray-500">
-                        <Link href="https://donate.stripe.com/aEU4hg8Cd6roaME288">Donate</Link>
-                    </li>
-
                 </ul>
             </div>
         
